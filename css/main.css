@@ -31,17 +31,6 @@ a {
   text-decoration: none;
 }
 
-.section {
-  padding: 94px 0;
-}
-
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0px 15px;
-}
-
 /* Цвета */
 /* Шрифт */
 /* Анимация и переход */
@@ -317,7 +306,7 @@ summary {
   text-decoration: none;
 }
 
-.logo__second {
+.logo__dark {
   color: #212121;
 }
 
@@ -336,7 +325,7 @@ summary {
   display: flex;
 }
 
-.page-header {
+.header {
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -354,11 +343,6 @@ summary {
 .nav__link:hover .contact__icon,
 .nav__link:focus .contact__icon {
   fill: var(--accent-color);
-}
-
-.nav__link:hover,
-.nav__link:hover {
-  color: var(--accent-color);
 }
 
 .nav__item {
@@ -748,9 +732,6 @@ img {
 
 .social-network__item:not(:last-child) {
   margin-right: 10px;
-}
-
-.social-network__item {
   list-style: none;
 }
 
@@ -1398,7 +1379,7 @@ img {
           flex-wrap: wrap;
 }
 
-.pictures {
+.project__box {
   position: relative;
   overflow: hidden;
   /* скрыто */
@@ -1489,7 +1470,7 @@ img {
   margin-bottom: 0px;
 }
 
-.card__thumb {
+.project__thumb {
   padding: 24px 20px 24px 20px;
 }
 
@@ -1520,11 +1501,6 @@ img {
   clip: rect(0 0 0 0);
 }
 
-.section.work {
-  padding-top: 0;
-  padding-bottom: 94px;
-}
-
 .section__title {
   text-align: center;
   margin-bottom: 50px;
@@ -1535,8 +1511,12 @@ img {
   color: #212121;
 }
 
-.section__background {
+.section.section--background {
   background: #f5f4fa;
+}
+
+.section.section--no--padding__top {
+  padding-top: 0;
 }
 
 .section__title {
@@ -1547,5 +1527,16 @@ img {
   text-align: center;
   margin: 0;
   margin-bottom: 50px;
+}
+
+.section {
+  padding: 94px 0;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 15px;
 }
 /*# sourceMappingURL=main.css.map */

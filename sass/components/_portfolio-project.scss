@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
 }
-.pictures {
+.project__box {
   position: relative;
   overflow: hidden; /* скрыто */
 }
@@ -68,7 +68,7 @@
 .project__item:nth-last-child(-n + 3) {
   margin-bottom: 0px;
 }
-.card__thumb {
+.project__thumb {
   padding: 24px 20px 24px 20px;
 }
 .project__link {

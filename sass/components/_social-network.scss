@@ -6,10 +6,9 @@
 }
 .social-network__item:not(:last-child) {
   margin-right: 10px;
-}
-.social-network__item {
   list-style: none;
 }
+
 .social-network__link {
   display: flex;
   width: 44px;

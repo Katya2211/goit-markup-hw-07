@@ -12,10 +12,6 @@
   border: 0;
   clip: rect(0 0 0 0);
 }
-.section.work {
-  padding-top: 0;
-  padding-bottom: 94px;
-}
 
 .section__title {
   text-align: center;
@@ -26,8 +22,11 @@
   letter-spacing: 0.03em;
   color: $litle-text-color;
 }
-.section__background {
+.section.section--background {
   background: #f5f4fa;
+}
+.section.section--no--padding__top {
+  padding-top: 0;
 }
 .section__title {
   color: $litle-text-color;
@@ -37,4 +36,7 @@
   text-align: center;
   margin: 0;
   margin-bottom: 50px;
+}
+.section {
+  padding: 94px 0;
 }
